@@ -2,7 +2,7 @@
 
 ## Project Overview 
 
-This projects uses Machine Learning to predict customer churn for a telecom company. A Logistic Regression model was developed using Scikit-learn to classify whether a customer is likely to leave the service. The model was evaluated using **Accuracy** and **Precision**, with a particular focus on **Precision** because false positive predictions may result in unnecessary customer retention costs.
+This project uses Machine Learning to predict customer churn for a telecom company. A Logistic Regression model was developed using Scikit-learn to classify whether a customer is likely to leave the service. The model was evaluated using **Accuracy** and **Precision**, with a particular focus on **Precision** because false positive predictions may result in unnecessary customer retention costs.
 
 ---
 
@@ -25,7 +25,7 @@ This projects uses Machine Learning to predict customer churn for a telecom comp
 - Pandas
 - NumPy
 - Scikit-learn
-- Matplotib
+- Matplotlib
  
 ---
  
@@ -37,9 +37,9 @@ The telecom customer dataset was loaded into a Pandas DataFrame.
  
 ### 2. Data Preprocessing
 
- Data preparation included:
+Data preparation included:
 - Handling missing values where necessary
-- Encoding ategorical variables
+- Encoding categorical variables
 - Scaling numerical features using StandardScaler
  
 ### 3. Train/Test Split
@@ -60,7 +60,7 @@ Model performance is measured using:
  
 ---
 
-### Model Performance and Intepretation
+### Model Performance and Interpretation
 
 The Logistic Regression model achieved an accuracy of **65%**, meaning it correctly predicted customer outcomes 65% of the time. 
 
@@ -121,7 +121,7 @@ More complex customer behaviour may not be captured effectively.
 ## 🔮Future Enhancements
 - Compare Logistic Regression with Random Forest
 - Perform Feature Engineering
-- Apply Cross Validation
+- Apply Cross-Validation
 - Generate ROC and Precision-Recall Curves
 - Build a Streamlit Dashboard
 - Create interactive Power BI visualisations
